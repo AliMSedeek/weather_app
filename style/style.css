@@ -1,0 +1,43 @@
+body{
+  background-image: url('../weather-bg.jpg');
+  background-size: cover;
+}
+
+header{
+  font-family: 'Borel', cursive;
+  color: #E5E4E2;
+}
+
+#forecast{
+  display: flex;
+  justify-content: space-between;
+}
+
+.card{
+  color: #CD7F32;
+  font-size: 20px;
+  background-color: #E5E4E2;
+}
+
+.card-footer{
+  color: #CD7F32 !important;
+  font-size: 20px;
+  background-color: #343434	;
+}
+
+.card-header{
+  background-color: #343434;
+}
+
+form{
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-control{
+  width: 90%;
+}
+
+.btn{
+  width:8%
+}
